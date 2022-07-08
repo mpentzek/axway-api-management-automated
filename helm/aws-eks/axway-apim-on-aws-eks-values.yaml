@@ -43,8 +43,8 @@ anm:
         - -c
         - |
           #!/bin/sh
-          echo "Download API-Gateway config from: https://raw.githubusercontent.com/cwiechmann/axway-api-management-automated/main/gateway-config/anm/fed/anm.fed"
-          wget -O /merge/fed https://raw.githubusercontent.com/cwiechmann/axway-api-management-automated/main/gateway-config/anm/fed/anm.fed
+          echo "Download API-Gateway config from: https://raw.githubusercontent.com/mpentzek/axway-api-management-automated/main/gateway-config/anm/fed/anm.fed"
+          wget -O /merge/fed https://raw.githubusercontent.com/mpentzek/axway-api-management-automated/main/gateway-config/anm/fed/anm.fed
   imageTag: 77-20220228-1-2022-07-08-10-27
 ##################################################################################################################################
 #   API MANAGER
@@ -83,8 +83,8 @@ apimgr:
         - -c
         - |
           #!/bin/sh
-          echo "Download API-Gateway config from: https://raw.githubusercontent.com/cwiechmann/axway-api-management-automated/main/gateway-config/apigateway/fed/apigateway.fed"
-          wget -O /merge/fed https://raw.githubusercontent.com/cwiechmann/axway-api-management-automated/main/gateway-config/apigateway/fed/apigateway.fed
+          echo "Download API-Gateway config from: https://raw.githubusercontent.com/mpentzek/axway-api-management-automated/main/gateway-config/apigateway/fed/apigateway.fed"
+          wget -O /merge/fed https://raw.githubusercontent.com/mpentzek/axway-api-management-automated/main/gateway-config/apigateway/fed/apigateway.fed
 ##################################################################################################################################
 #   API TRAFFIC
 ##################################################################################################################################
@@ -129,8 +129,8 @@ apitraffic:
         - -c
         - |
           #!/bin/sh
-          echo "Download API-Gateway config from: https://raw.githubusercontent.com/cwiechmann/axway-api-management-automated/main/gateway-config/apigateway/fed/apigateway.fed"
-          wget -O /merge/fed https://raw.githubusercontent.com/cwiechmann/axway-api-management-automated/main/gateway-config/apigateway/fed/apigateway.fed
+          echo "Download API-Gateway config from: https://raw.githubusercontent.com/mpentzek/axway-api-management-automated/main/gateway-config/apigateway/fed/apigateway.fed"
+          wget -O /merge/fed https://raw.githubusercontent.com/mpentzek/axway-api-management-automated/main/gateway-config/apigateway/fed/apigateway.fed
   extraContainers:
     - name: filebeat
       image: docker.elastic.co/beats/filebeat:7.17.1
